@@ -1,0 +1,43 @@
+.container{
+    position:relative;
+    color:white;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:1rem;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    position: relative;
+    background-color: black;
+    padding:1rem;
+    scroll-snap-type: x proximity;
+    img{
+    object-fit: contain;
+    }
+}
+.hoveredClass{
+    border:1px solid gray;
+    border-radius: 25px;
+}
+.previousbtn{
+    position: absolute;
+    top:50%;
+    left:0px;
+    z-index: 10;
+    padding: 1rem;
+    font-size: larger;
+    background-color: black;
+    color:white;
+}
+.nextbtn{
+    position: absolute;
+    top:50%;
+    right:0px;
+    z-index: 10;
+    padding: 1rem;
+    font-size: larger;
+    background-color: black;
+    color:white;
+}

@@ -1,0 +1,13 @@
+/* body{
+    height:500vh;
+    display: flex;
+}
+.clicker{
+    margin:1px;
+    left:50%;
+    border:1px solid red;
+    max-width: max-content;
+    position: absolute;
+    transform: translateX(-50%);
+    scroll-behavior: smooth;
+} */
